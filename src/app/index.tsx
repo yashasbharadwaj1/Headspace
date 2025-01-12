@@ -11,7 +11,7 @@ export default function HomeScreen(){
         data = {meditations} 
         className='bg-white'
         contentContainerStyle={{gap: 20}} 
-        contentContainerClassName='gap-5 p-3'
+        contentContainerClassName='gap-8 p-3'
         renderItem={({item}) => <MeditationListItem meditation={item}/>}
         />
         </>
